@@ -293,7 +293,7 @@
     background-color: rgb(255, 248, 227);
     width: 700px;
     height: 230px;
-    margin-left: 500px;
+    margin-left: 600px;
     
 
 } 
@@ -308,8 +308,21 @@
 
     
 } 
+.footer-main{
+    text-align: center;
+    height:200px;
+    background-color: rgb(10, 10, 27);
+}
+.footer-cursive{
+    margin-top: 70px;
 
-.foot-cursive{
-  
+    color: rgb(192, 55, 55);
+    font-weight: 400;
+    font-size: 36px;
+    font-style: italic;
 
+}
+.footer-p{
+    margin-top: 50px;
+    color: white;
 }
