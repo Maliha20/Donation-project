@@ -51,6 +51,7 @@
 
 /* main-section-1 starts */
 
+
 .sec-1 {
     text-align: center;
 
@@ -64,12 +65,6 @@
     margin-bottom: 20px;
 }
 
-.sec-1-description {
-    font-size: 20px;
-   
-
-}
-
 
 .sec-1-container {
     display: flex;
@@ -80,8 +75,7 @@
 .sec-1-info {
     color: rgb(102, 100, 100);
     background-color: rgb(250, 246, 235);
-    /* height: 100px;
-    width: 100px; */
+    
     padding: 50px;
     border-radius: 5px;
     font-size: 30px;
@@ -90,7 +84,7 @@
 
 }
 
-.sec-1 p {
+.sec-1-description{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 10px;
@@ -132,11 +126,7 @@
     justify-content: center;
 }
 
-/* .id-class {
 
-    text-align: left;
-    
-} */
 
 #sec-2-id-1 {
     padding-left: 30px;
@@ -291,9 +281,9 @@
     /* margin-left: 600px; */
     
     background-color: rgb(255, 248, 227);
-    width: 700px;
+    width: 100%;
     height: 230px;
-    margin-left: 600px;
+    margin: 0 0 0 auto;
     
 
 } 
@@ -314,15 +304,88 @@
     background-color: rgb(10, 10, 27);
 }
 .footer-cursive{
-    margin-top: 70px;
-
+    padding-top: 70px;
     color: rgb(192, 55, 55);
     font-weight: 400;
     font-size: 36px;
     font-style: italic;
 
 }
+
 .footer-p{
-    margin-top: 50px;
-    color: white;
+     margin-top: 7px;
+    color: rgb(255, 255, 255);
+}
+.hide{
+    display: none;
+}
+html,body{
+    overflow-x: hidden;
+}
+@media screen and (max-width:576px) {
+   
+    .header{
+        height: 400px;
+       
+        background-image: none;
+
+    }
+    .header-title{
+        color: rgb(194, 21, 21);
+        padding: 0;
+    }
+    .header-description{
+color: black;
+
+    }
+    .sec-1-description{
+        
+        padding: 0 10px;
+        font-size: 25px;
+    }
+   
+     .sec-1-container{
+        flex-direction: column;
+        
+    } 
+.sec-1-info{
+    margin:10px 20px;
+    padding: 10px;
+}
+.sec-2-container{
+    flex-direction: column;
+}
+
+
+#sec-2-id-1, #sec-2-id-2 , #sec-2-id-3{
+    margin-left: 20px;
+}
+.sec-3-container , .sec-4-container{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-3-div, .sec-4-div{
+    margin-bottom: 20px;
+}
+.sec-4-div{
+    padding-top: 5px;
+}
+.sec-3-img , .sec-4-img {
+    height: 325px;
+    width: 325px;
+}
+.sec-5-title{
+    margin-top: 125px;
+}
+.sec-5-mic{
+    height: 100px;
+}
+.input-sec-5{
+    margin-top: 30px;
+}
+
+}
+@media screen and (min-width:577px){
+    
 }
